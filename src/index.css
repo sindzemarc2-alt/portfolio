@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  /* le texte ne change pas de taille quand on tourne le téléphone */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: #03050f;
+  color: white;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+@keyframes monter {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.apparait {
+  animation: monter 0.8s ease both;
+}
+
+/* évite le zoom automatique de l'iPhone quand on touche un champ */
+@media (max-width: 767px) {
+  input,
+  textarea {
+    font-size: 16px;
+  }
+}
