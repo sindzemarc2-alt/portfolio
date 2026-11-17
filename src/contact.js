@@ -17,9 +17,14 @@ export const CONTACT = {
       lien: "mailto:sindzemarc2@gmail.com",
     },
     {
+      nom: "LinkedIn",
+      pseudo: "Marc Donald Sindze Waffo",
+      lien: "https://www.linkedin.com/in/marc-donald-sindze-waffo-4b5642450",
+    },
+    {
       nom: "GitHub",
-      pseudo: "@mc_do237",
-      lien: "https://github.com/mc_do237",
+      pseudo: "@sindzemarc2-alt",
+      lien: "https://github.com/sindzemarc2-alt",
     },
     {
       nom: "TikTok",
